@@ -23,8 +23,8 @@
     list-style: none;
 }
 
-.img{
-    display:block;
+.img {
+    display: block;
     max-width: 100%;
     height:auto;
 
@@ -237,7 +237,7 @@ p {
 
 .img-list {
     display:flex;
-    gap:40px;
+    gap: 24px;
 
 }
 
@@ -328,10 +328,10 @@ p {
     letter-spacing: 0.02em;
 }
 
-
-.filters{
+.section{
     padding: 96px 120px;
 }
+
 
 .buttons{
     display:flex;
@@ -399,7 +399,7 @@ p {
     margin:-12px;
     padding-bottom: 120px;
     column-gap: 24px;
-    row-gap: 48pxc
+    row-gap: 48px;
 }
 
 .work-list .item{
