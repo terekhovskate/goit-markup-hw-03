@@ -23,6 +23,13 @@
     list-style: none;
 }
 
+.img{
+    display:block;
+    max-width: 100%;
+    height:auto;
+
+}
+
 .header{
     border-bottom: 1px solid var(--accent-color);
 }
@@ -230,33 +237,25 @@ p {
 
 .img-list {
     display:flex;
+    gap:40px;
+
 }
 
-.img-list{
-    gap:40px;
-}
+
 .img-list .item {
     width: calc((100% - 48px) / 3);
 }
 
-.img{
-    display:block;
-    max-width: 100%;
-    height:auto;
-}
 
 .team{
     display:flex;
+    gap: 24px; 
 }
 
 .team .item{
     width: calc((100% - 72px) / 4);
-    margin-right:24px;
 }
 
-.team .item:last-child{
-    margin-right:50;
-}
 
 .info{
     padding: 32px 16px;
