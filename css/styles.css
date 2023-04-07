@@ -131,15 +131,16 @@ p {
 
 .hero{
     background-color: var(--dark-color);
-    text-align:center;
     width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
 .hero-title{
+   
     margin-top:0;
     margin-bottom:48px;
     max-width: 496px;
+   
 
    color: var(--white-background-color);
 
@@ -156,7 +157,8 @@ p {
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
-    height: 56px;
+    min-height: 56px;
+
 
     color: var(--white-background-color);
     background-color: var(--primary-brand-color);
