@@ -67,13 +67,10 @@
     display:flex;
 }
 
-.nav-list .item {
-    margin-right: 40px;
+.nav-list {
+    gap: 40px;
 }
 
-.nav-list .item:last-child {
-    margin-right: 0px;
-}
 
 .nav-list .link{
     display:block;
@@ -85,12 +82,10 @@
     display:flex;
 }
 
-.contacts .item {
-    margin-right:40px;
+.contacts{
+    gap: 40px
 }
-.contacts .item:last-child {
-    margin-right:0px;
-}
+
 
 .address{
     font-style: normal;
@@ -176,17 +171,15 @@ p {
 
 .features-list{
     display:flex;
+    gap: 24px;
     
 }
 
 .features-list .item{
     width: calc((100% - 72px) / 4);
-    margin-right: 24px;
 }
 
-.features-list .item:last-child{
-    margin-right: 0px;
-}
+
 
 .features{
     padding-top: 120px;
@@ -239,17 +232,17 @@ p {
     display:flex;
 }
 
+.img-list{
+    gap:40px;
+}
 .img-list .item {
     width: calc((100% - 48px) / 3);
-    margin-right: 24px
 }
 
 .img{
     display:block;
-}
-
-.img-list .item:last-child {
-    margin-right:0
+    max-width: 100%;
+    height:auto;
 }
 
 .team{
@@ -336,13 +329,16 @@ p {
     letter-spacing: 0.02em;
 }
 
+
 .filters{
     padding: 96px 120px;
 }
 
 .buttons{
     display:flex;
-    justify-content:center;
+    gap: 24px;
+    justify-content: center; 
+    margin-bottom: 72px;
 }
 .buttons .item{
     margin-right: 24px;
@@ -370,6 +366,7 @@ p {
 .btn:hover, .btn:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .apps{
@@ -402,10 +399,12 @@ p {
     flex-wrap: wrap;
     margin:-12px;
     padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48pxc
 }
 
 .work-list .item{
-    width: 360px;
+    width:calc((100% - 48px) / 3);
     margin: 12px;
 }
 
