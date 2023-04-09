@@ -399,7 +399,6 @@ p {
 .work-list {
     display: flex;
     flex-wrap: wrap;
-    margin:-12px;
     padding-bottom: 120px;
     column-gap: 24px;
     row-gap: 48px;
